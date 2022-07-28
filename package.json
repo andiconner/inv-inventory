@@ -1,0 +1,27 @@
+{
+  "name": "inv-inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andiconner/inv-inventory.git"
+  },
+  "keywords": [],
+  "author": "Andi Conner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andiconner/inv-inventory/issues"
+  },
+  "homepage": "https://github.com/andiconner/inv-inventory#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.3"
+  }
+}
