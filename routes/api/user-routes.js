@@ -22,7 +22,7 @@ router.get('/:id', (req, res) => {
         include: [
             {
                 model: Inventory,
-                attributes: ['id', 'title', 'post_url', 'created_at']
+                attributes: ['id', 'codigo', 'P/N', 'preco', 'quantidade']
             },
             
         ]
